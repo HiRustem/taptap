@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router";
 import "./App.css";
 import OnlyMobileProvider from "./components/Providers/OnlyMobileProvider/OnlyMobileProvider";
 import NavbarProvider from "./components/Providers/NavbarProvider/NavbarProvider";
