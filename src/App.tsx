@@ -11,7 +11,6 @@ function App() {
         <NavbarProvider>
           <Routes>
             <Route path="/tap" element={<TapPage />} />
-            <Route path="*" element={<Navigate to="/tap" replace />} />
           </Routes>
         </NavbarProvider>
       </OnlyMobileProvider>
