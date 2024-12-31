@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  width: 65px;
+  height: 65px;
+
+  border-radius: 16px;
+  border: 1px solid gray;
+
+  cursor: pointer;
+
+  &.active {
+    border-color: gold;
+  }
+
+  .icon {
+  }
+
+  .title {
+  }
+}
