@@ -11,6 +11,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: min-content 1fr min-content;
 
+    gap: 20px;
+
+    justify-content: space-between;
     align-items: center;
 
     height: calc(100dvh - var(--page-bottom-margin));
