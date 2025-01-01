@@ -8,6 +8,7 @@ import vercel from "vite-plugin-vercel";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), svgr(), tsconfigPaths(), vercel()],
+
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
